@@ -130,6 +130,8 @@ h3{
     background-repeat: no-repeat;
     background-size: contain;
     height: 790px;
+
+    margin-bottom: 150px;
 }
 
 .make_yours__text{
@@ -165,4 +167,75 @@ h2{
     color: white;
 }
 
+.description_func{
+    text-align: center;
+    margin-bottom: 150px;
+}
 
+.description_func h2{
+    width: 676px;
+    margin: 0 auto;
+    color: #FF25C2;
+}
+
+.description__text{
+    width: 507px;
+    text-align: center;
+    margin: 80px auto 0px auto;
+}
+
+.description__text img{
+    border-radius: 100px;
+    padding: 19px;
+    background-color: #FF25C2;
+    margin-bottom: 20px;
+}
+
+.description__text p{
+
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -3%;
+    color: white;
+}
+
+.use_technology{
+    background-image: url(../resources/technology_bg.jpg);
+    height: 1040px;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.use_technology p{
+    font-family: 'Inter',sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -6%;
+
+    width: 942px;
+    padding-top: 42px;
+    margin: 0 auto;
+}
+
+.use_technology button{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: transparent;
+
+    margin-top: 60px;
+    padding: 40px 350px;
+}
+
+.use_technology button:hover{
+    cursor: pointer;
+}
