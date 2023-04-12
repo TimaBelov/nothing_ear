@@ -1,0 +1,56 @@
+.sell_block__item_w {
+  background-image: url(../resources/sell_white.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 650px;
+
+  margin-bottom: 75px;
+}
+
+.sell_block__item_b {
+  background-image: url(../resources/sell_black.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 650px;
+
+  margin-bottom: 150px;
+}
+
+.sell_items_container {
+  padding-top: 50px;
+  margin-left: 175px;
+}
+.sell_items_container h3 {
+  color: white;
+  width: 375px;
+
+  margin-bottom: 150px;
+}
+
+.sell_items_container img {
+  margin-bottom: 30px;
+}
+
+.sell_items_container button {
+  border-radius: 100px;
+  padding: 40px 160px;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+
+  border-color: white;
+  border: 1px solid white;
+}
+
+.sell_items_container button:hover {
+  cursor: pointer;
+}

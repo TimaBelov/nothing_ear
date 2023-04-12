@@ -1,0 +1,32 @@
+.footer_links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.footer_links a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  color: white;
+  margin-right: 43px;
+}
+
+.footer_links a:last-child {
+  margin-right: 0;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+footer h3 {
+  color: #ff25c2;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: -0.03em;
+}

@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 44px auto 70px auto;
+}
+
+.header_links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  padding-right: 43px;
+}
+
+.header_links a:last-child {
+  padding-right: 0;
+}

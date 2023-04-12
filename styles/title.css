@@ -1,0 +1,9 @@
+.title p {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -3%;
+}

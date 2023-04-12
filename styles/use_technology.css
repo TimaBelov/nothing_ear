@@ -1,0 +1,35 @@
+.use_technology {
+  background-image: url(../resources/technology_bg.jpg);
+  height: 1040px;
+  color: white;
+  text-align: center;
+  padding-top: 130px;
+  margin-bottom: 150px;
+}
+
+.use_technology p {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.06em;
+  padding-top: 42px;
+  margin: 0 auto;
+}
+
+.use_technology button {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 100px;
+  background-color: transparent;
+
+  margin-top: 60px;
+  padding: 40px 381px;
+}
+
+.use_technology button:hover {
+  cursor: pointer;
+}

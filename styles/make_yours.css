@@ -1,0 +1,32 @@
+.make_yours {
+  background-image: url(../resources/bg_make_yours.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 790px;
+
+  margin-bottom: 140px;
+}
+
+.make_yours__text {
+  width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.make_yours h2 {
+  padding-top: 190px;
+
+  color: #ff25c2;
+
+  margin-bottom: 39px;
+}
+
+.make_yours p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -3%;
+
+  margin-bottom: 39px;
+  color: white;
+}
