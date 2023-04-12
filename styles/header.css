@@ -11,9 +11,9 @@
   font-size: 18px;
   line-height: 22px;
   letter-spacing: -0.03em;
-  padding-right: 43px;
+  margin-right: 43px;
 }
 
 .header_links a:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }

@@ -104,10 +104,49 @@
         </p>
         <button>КУПИТЬ</button>
       </div>
-      <div class="social_networks">
+      <div class="social_networks" id="social_networks">
         <h2>Чистый звук, точно настроенный</h2>
-        <div class="social_photo_container">
-          <p>Мы расчистили путь для превосходного<br />звука, голоса и связи</p>
+        <div class="gallery">
+          <div class="gallery__slides">
+            <div class="gallery__slide gallery__slide__active">
+              <div class="social_photo_container box_parrot">
+                <p class="social_photo_description">
+                    И непоколебимая решимость уменьшить воздействие 
+                    hтехнологий на окружающую среду
+                </p>
+              </div>
+            </div>
+            <div class="gallery__slide">
+              <div class="social_photo_container box_flower">
+                <p class="social_photo_description">
+                    Дизайн, выходящий за пределы поверхности.
+                </p>
+              </div>
+            </div>
+            <div class="gallery__slide">
+              <div class="social_photo_container box_people">
+                <p class="social_photo_description">
+                    Телефон Nothing Phone (1) это крупнейший запуск 
+                    vгода в области смартфонов
+                </p>
+              </div>
+            </div>
+            <div class="gallery__slide ">
+              <div class="social_photo_container box_headphones">
+                <p class="social_photo_description">
+                  Мы расчистили путь для превосходного звука, голоса и связи
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery__controls">
+            <button class="gallery__control-prev">
+              <img src="resources/prev_gallery.png" alt="кнопка назад" />
+            </button>
+            <button class="gallery__control-next">
+              <img src="resources/next_gallery.png" alt="Кнопка вперёд" />
+            </button>
+          </div>
         </div>
         <div class="social_networks_links">
           <a href="#">inst</a>
@@ -121,10 +160,11 @@
           <a href="#">МОДЕЛИ</a>
           <a href="#">ФУНКЦИИ</a>
           <a href="#">ТРЕНИРОВКИ</a>
-          <a href="#">СОЦИАЛЬНЫЕ СЕТИ</a>
+          <a href="#social_networks">СОЦИАЛЬНЫЕ СЕТИ</a>
         </div>
         <h3>nothing</h3>
       </footer>
     </div>
+    <script src="gallery.js"></script>
   </body>
 </html>

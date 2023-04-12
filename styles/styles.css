@@ -1,3 +1,12 @@
+@import url(description_func.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(make_yours.css);
+@import url(sell_block.css);
+@import url(social_networks.css);
+@import url(title.css);
+@import url(use_technology.css);
+
 html {
   scroll-behavior: smooth;
 }
