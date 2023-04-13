@@ -14,8 +14,9 @@
   position: relative;
 }
 
-.social_networks h2 {
+.social_networks__title {
   margin-bottom: 100px;
+  
 }
 
 .social_photo_description {

@@ -1,9 +1,9 @@
 .make_yours {
   background-image: url(../resources/bg_make_yours.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 790px;
-
+  width: 100%;
   margin-bottom: 140px;
 }
 

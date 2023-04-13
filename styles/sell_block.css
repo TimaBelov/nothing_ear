@@ -1,41 +1,15 @@
-.sell_block__item_w {
-  background-image: url(../resources/sell_white.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-
-  height: 650px;
-
-  margin-bottom: 75px;
-}
-
-.sell_block__item_b {
-  background-image: url(../resources/sell_black.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-
-  height: 650px;
-
+.sell__block {
   margin-bottom: 150px;
 }
 
-.sell_items_container {
-  padding-top: 50px;
-  margin-left: 175px;
-}
-.sell_items_container h3 {
+.sell__item__title {
   color: white;
   width: 375px;
 
   margin-bottom: 150px;
 }
 
-.sell_items_container img {
-  margin-bottom: 30px;
-}
-
-.sell_items_container button {
+.sell__item__button {
   border-radius: 100px;
   padding: 40px 160px;
   font-family: "Inter", sans-serif;
@@ -51,6 +25,66 @@
   border: 1px solid white;
 }
 
-.sell_items_container button:hover {
+.sell__item__button:hover {
   cursor: pointer;
+}
+
+.sell__item {
+  height: 644px;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-bottom: 80px;
+}
+
+.sell__item:last-child{
+  margin-bottom: 0;
+}
+
+.sell__white__headphones {
+  background-image: url(../resources/sell_white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sell__black__headphones {
+  background-image: url(../resources/sell_black.png);
+}
+
+.sell__image {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.sell__item__wrapper{
+  display: flex;
+  height: 644px;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: white;
+}
+
+.sell__item__description{
+  width: 525px;
+}
+
+.sell__item__photo{
+  background-image: url(../resources/nothing_phone.png);
+  height: 100%;
+  width: 570px;
+  padding-left: 35px;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sell__item__text{
+  font-size: 45px;
+  line-height: 42px;
+}
+
+.sell__item__photo img{
+  width: 180px;
+  height: 142px;
 }

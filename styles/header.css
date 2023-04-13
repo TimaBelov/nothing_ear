@@ -17,3 +17,7 @@
 .header_links a:last-child {
   margin-right: 0;
 }
+
+.header_links a:hover{
+  opacity: 0.5;
+}
