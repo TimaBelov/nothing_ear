@@ -6,6 +6,7 @@
 @import url(social_networks.css);
 @import url(title.css);
 @import url(use_technology.css);
+@import url(burger.css);
 
 html {
   scroll-behavior: smooth;

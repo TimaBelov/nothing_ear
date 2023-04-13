@@ -17,13 +17,36 @@
   <body>
     <div class="container">
       <header class="header">
-        <div class="header_links">
+        <nav class="header_links">
           <a href="">МОДЕЛИ</a>
           <a href="">ФУНКЦИИ</a>
           <a href="">ТРЕНИРОВКИ</a>
           <a href="">СОЦИАЛЬНЫЕ СЕТИ</a>
+        </nav>
+        <div class="burger__btn__wrapper">
+          <div class="burger__btn js-burger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </header>
+      <div class="burger js-burger">
+        <div class="burger__content">
+          <nav class="burger__nav js-burger-link">
+            <a href="">МОДЕЛИ</a>
+            <a href="">ФУНКЦИИ</a>
+            <a href="">ТРЕНИРОВКИ</a>
+            <a href="">СОЦИАЛЬНЫЕ СЕТИ</a>
+          </nav>
+          <div class="burger__contacts">
+            <a href="#">inst</a>
+            <a href="#">yt</a>
+            <a href="#">twt</a>
+            <a href="#">fb</a>
+          </div>
+        </div>
+      </div>
     </div>
     <main>
       <div class="container">
@@ -182,12 +205,12 @@
       </section>
     </main>
     <footer>
-      <div class="footer_links">
+      <nav class="footer_links">
         <a href="#">МОДЕЛИ</a>
         <a href="#">ФУНКЦИИ</a>
         <a href="#">ТРЕНИРОВКИ</a>
         <a href="#social_networks">СОЦИАЛЬНЫЕ СЕТИ</a>
-      </div>
+      </nav>
       <div class="container">
         <div class="footer__description">
           <h3>2023</h3>
@@ -196,5 +219,6 @@
       </div>
     </footer>
     <script src="gallery.js"></script>
+    <script src="burger.js"></script>
   </body>
 </html>
