@@ -1,10 +1,12 @@
 .use_technology {
   background-image: url(../resources/technology_bg.jpg);
-  height: 1040px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   text-align: center;
   padding-top: 130px;
-  margin-bottom: 150px;
+  padding-bottom: 130px;
 }
 
 .use_technology p {
@@ -12,7 +14,7 @@
   font-weight: 700;
   line-height: 40px;
   letter-spacing: -0.06em;
-  padding-top: 42px;
+  padding-top: 40px;
   margin: 0 auto;
 }
 
@@ -32,4 +34,13 @@
 
 .use_technology button:hover {
   cursor: pointer;
+}
+
+@media(max-width:1199px){
+  .use_technology{
+    padding: 150px 0;
+  }
+  .use_technology p{
+    padding-top: 32px;
+  }
 }

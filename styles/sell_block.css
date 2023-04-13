@@ -48,6 +48,8 @@
 
 .sell__black__headphones {
   background-image: url(../resources/sell_black.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .sell__image {
@@ -87,4 +89,33 @@
 .sell__item__photo img{
   width: 180px;
   height: 142px;
+}
+
+@media (max-width:1199px) {
+  .sell__white__headphones{
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .sell__black__headphones{
+    background-size: cover;
+    border-radius: 30px;
+    border: 1px solid white;
+    margin-bottom: 150px;
+  }
+  .sell__item__wrapper{
+    flex-direction: column;
+    height: 100%;
+    row-gap: 60px;
+    text-align: left;
+  }
+  .sell__item__photo{
+    height: 644px;
+    width: 695px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .sell__item__description{
+    width: 100%;
+  }
 }
