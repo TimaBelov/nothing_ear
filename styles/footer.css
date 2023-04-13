@@ -39,3 +39,22 @@ footer h3 {
   display: flex;
   justify-content: space-between;
 }
+
+@media(max-width:767px){
+  .footer_links a{
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 0;
+  }
+  .footer_links{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .footer__description{
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .footer__description h3:last-child{
+    margin-right: 10px;
+  }
+}

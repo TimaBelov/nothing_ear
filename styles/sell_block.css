@@ -36,7 +36,7 @@
   margin-bottom: 80px;
 }
 
-.sell__item:last-child{
+.sell__item:last-child {
   margin-bottom: 0;
 }
 
@@ -57,7 +57,7 @@
   margin-bottom: 30px;
 }
 
-.sell__item__wrapper{
+.sell__item__wrapper {
   display: flex;
   height: 644px;
   justify-content: space-between;
@@ -65,11 +65,11 @@
   color: white;
 }
 
-.sell__item__description{
+.sell__item__description {
   width: 525px;
 }
 
-.sell__item__photo{
+.sell__item__photo {
   background-image: url(../resources/nothing_phone.png);
   height: 100%;
   width: 570px;
@@ -81,41 +81,64 @@
   justify-content: space-between;
 }
 
-.sell__item__text{
+.sell__item__text {
   font-size: 45px;
   line-height: 42px;
 }
 
-.sell__item__photo img{
+.sell__item__photo img {
   width: 180px;
   height: 142px;
 }
 
-@media (max-width:1199px) {
-  .sell__white__headphones{
+@media (max-width: 1199px) {
+  .sell__white__headphones {
     background-size: cover;
     border-radius: 30px;
   }
-  .sell__black__headphones{
+  .sell__black__headphones {
     background-size: cover;
     border-radius: 30px;
     border: 1px solid white;
     margin-bottom: 150px;
   }
-  .sell__item__wrapper{
+  .sell__item__wrapper {
     flex-direction: column;
     height: 100%;
     row-gap: 60px;
     text-align: left;
   }
-  .sell__item__photo{
+  .sell__item__photo {
     height: 644px;
-    width: 695px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px;
   }
-  .sell__item__description{
+  .sell__item__description {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .sell__image {
+    display: none;
+  }
+  .sell__item__text img {
+    display: none;
+  }
+  .sell__item {
+    padding-top: 43px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom: 50px;
+    height: 550px;
+  }
+  .sell__item__title {
+    margin-bottom: 310px;
+  }
+  .sell__item__button {
+    padding: 25px 0;
     width: 100%;
   }
 }

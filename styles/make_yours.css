@@ -2,19 +2,19 @@
   background-image: url(../resources/bg_make_yours.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 790px;
   width: 100%;
-  margin-bottom: 140px;
+  margin-bottom: 150px;
 }
 
 .make_yours__text {
   width: 680px;
   margin: 0 auto;
   text-align: center;
+  padding: 190px 0 ;
 }
 
 .make_yours h2 {
-  padding-top: 190px;
+
 
   color: #ff25c2;
 
@@ -29,4 +29,28 @@
 
   margin-bottom: 39px;
   color: white;
+}
+.make_yours p:last-child{
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px){
+  .make_yours{
+    background-position: 75%;
+    margin-bottom: 100px;
+  }
+  .make_yours__text{
+    padding: 100px 0;
+    width: 309px;
+  }
+  .make_yours h2{
+    margin-bottom: 50px;
+  }
+  .make_yours p{
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .make_yours p:first-child{
+    margin-bottom: 50px;
+  }
 }

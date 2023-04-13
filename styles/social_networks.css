@@ -17,7 +17,6 @@
 
 .social_networks__title {
   margin-bottom: 100px;
-  
 }
 
 .social_photo_description {
@@ -74,7 +73,7 @@
   transition: all 1.4s ease;
 }
 
-.gallery__slide__active{
+.gallery__slide__active {
   opacity: 1;
 }
 
@@ -99,34 +98,63 @@
   background-repeat: no-repeat;
 }
 
-
-.gallery__controls{
+.gallery__controls {
   position: absolute;
   bottom: 24px;
 }
 
-.gallery__controls button:hover{
+.gallery__controls button:hover {
   opacity: 0.5;
 }
 
-.gallery__control-prev{
+.gallery__control-prev {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
-.gallery__control-next{
+.gallery__control-next {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
-@media (max-width:1199px){
-  .social_photo_container{
+@media (max-width: 1199px) {
+  .social_photo_container {
     background-size: cover;
     border-radius: 30px;
   }
-  .social_networks{
+  .social_networks {
     margin-bottom: 178px;
+  }
+}
+
+@media (max-width: 767px) {
+  .social_networks {
+    margin-top: 100px;
+    margin-bottom: 65px;
+  }
+  .social_networks__title {
+    font-size: 45px;
+    line-height: 33px;
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .social_photo_description {
+    font-size: 16px;
+    line-height: 19px;
+    width: 297px;
+    margin: 0 auto;
+  }
+  .gallery__controls {
+    bottom: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .social_networks_links a {
+    font-size: 25px;
+    line-height: 18px;
   }
 }

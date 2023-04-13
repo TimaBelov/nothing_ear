@@ -5,8 +5,8 @@
   background-size: cover;
   color: white;
   text-align: center;
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .use_technology p {
@@ -36,11 +36,37 @@
   cursor: pointer;
 }
 
-@media(max-width:1199px){
-  .use_technology{
+@media (max-width: 1199px) {
+  .use_technology {
     padding: 150px 0;
   }
-  .use_technology p{
+  .use_technology p {
     padding-top: 32px;
+  }
+  .use_technology button {
+    width: 100%;
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .use_technology {
+    padding-top: 100px;
+    padding-bottom: 168px;
+  }
+  .use_technology h2 {
+    font-size: 45px;
+    line-height: 33px;
+    width: 320px;
+    margin: 0 auto;
+  }
+  .use_technology p {
+    font-size: 25px;
+    line-height: 22px;
+    width: 269px;
+  }
+  .use_technology button {
+    margin-top: 50px;
+    padding: 24px 0;
   }
 }

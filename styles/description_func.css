@@ -29,3 +29,20 @@
   letter-spacing: -3%;
   color: white;
 }
+
+@media(max-width:767px){
+  .description__text p{
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .description_func{
+    margin-bottom: 100px;
+  }
+  .description_func h2{
+    width: 300px;
+  }
+  .description__text{
+    width: 319px;
+    margin: 50px auto 0 auto;
+  }
+}
