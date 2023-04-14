@@ -57,13 +57,13 @@
   .use_technology h2 {
     font-size: 45px;
     line-height: 33px;
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .use_technology p {
     font-size: 25px;
     line-height: 22px;
-    width: 269px;
+    width: 100%;
   }
   .use_technology button {
     margin-top: 50px;

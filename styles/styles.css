@@ -68,6 +68,12 @@ h2 {
     width: 100%;
     padding: 0 15px;
   }
+  .header_img{
+    width: 100%;
+  }
+  .header_img img{
+    width: 100%;
+  }
 }
 
 @media(max-width:767px){

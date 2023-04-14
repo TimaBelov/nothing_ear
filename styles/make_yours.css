@@ -25,7 +25,7 @@
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
-  letter-spacing: -3%;
+  letter-spacing: -0.03em;
 
   margin-bottom: 39px;
   color: white;
@@ -41,14 +41,18 @@
   }
   .make_yours__text{
     padding: 100px 0;
-    width: 309px;
+    width: 100%;
   }
   .make_yours h2{
+    width: 100%;
     margin-bottom: 50px;
+    word-break: break-all;
   }
   .make_yours p{
     font-size: 16px;
     line-height: 19px;
+    word-break: break-all;
+    width: 100%;
   }
   .make_yours p:first-child{
     margin-bottom: 50px;

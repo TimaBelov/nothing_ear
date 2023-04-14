@@ -136,9 +136,13 @@
   }
   .sell__item__title {
     margin-bottom: 310px;
+    width: 100%;
   }
   .sell__item__button {
     padding: 25px 0;
     width: 100%;
+  }
+  .sell__item__description{
+    word-break: break-all;
   }
 }
