@@ -23,12 +23,17 @@
 }
 
 .burger{
-  display: none;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 100%;
+  width: 100%;
 }
 
 @media(max-width:767px){
   .burger__open{
-    display: block;
+    bottom: 0;
+    position: unset;
   }
   .header{
     margin: 26px auto 0 auto;
