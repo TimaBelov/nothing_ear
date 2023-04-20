@@ -77,22 +77,22 @@
 }
 
 .box_parrot {
-  background-image: url(../resources/gallery_parrot.png);
+  background-image: url(../resources/gallery_parrot.webp);
   background-position: center;
   background-repeat: no-repeat;
 }
 .box_flower {
-  background-image: url(../resources/gallery__flower.png);
+  background-image: url(../resources/gallery__flower.webp);
   background-position: center;
   background-repeat: no-repeat;
 }
 .box_people {
-  background-image: url(../resources/gallery_people.png);
+  background-image: url(../resources/gallery_people.webp);
   background-position: center;
   background-repeat: no-repeat;
 }
 .box_headphones {
-  background-image: url(../resources/gallery_headphones.png);
+  background-image: url(../resources/gallery_headphones.webp);
   background-position: center;
   background-repeat: no-repeat;
 }

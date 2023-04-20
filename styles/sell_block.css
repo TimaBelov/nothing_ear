@@ -41,13 +41,13 @@
 }
 
 .sell__white__headphones {
-  background-image: url(../resources/sell_white.png);
+  background-image: url(../resources/sell_white.webp);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .sell__black__headphones {
-  background-image: url(../resources/sell_black.png);
+  background-image: url(../resources/sell_black.webp);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -70,7 +70,7 @@
 }
 
 .sell__item__photo {
-  background-image: url(../resources/nothing_phone.png);
+  background-image: url(../resources/nothing_phone.webp);
   height: 100%;
   width: 570px;
   padding-left: 35px;
